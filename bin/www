@@ -11,7 +11,7 @@ const app      = require('../app'),
       settings = require('../config').settings,
       http     = require('http'),
       path     = require('path'),
-      debug    = require('debug')('node-koa2-babel-sse:server');
+      debug    = require('debug')('node-koa2-babel-study:server');
 
 /**
  * Get port from environment.

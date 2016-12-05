@@ -6,5 +6,5 @@
 
 ```bash
  $ npm install
- $ npm start
+ $ DEBUG=node-koa2-babel-study:* npm start
 ```

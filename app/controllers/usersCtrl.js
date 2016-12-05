@@ -11,7 +11,7 @@ export default class UsersCtrl extends AppCtrl {
 
   show() {
     return async () => {
-      super.raise('not implemented');
+      super.raise('not implemented', 404);
     };
   }
 }

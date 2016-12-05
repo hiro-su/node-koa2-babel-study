@@ -1,7 +1,11 @@
 'use strict';
 
 export default class AppCtrl {
-  raise(msg) {
-    throw new Error(msg);
+  raise(msg, status) {
+    const err = new Error(msg);
+    err.status = status;
+
+    console.error(err);
+    throw err;
   }
 }

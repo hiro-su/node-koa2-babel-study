@@ -1,4 +1,5 @@
 # node-koa2-babel-study
+The directory structure like the rails. 
 
 ## development
 
